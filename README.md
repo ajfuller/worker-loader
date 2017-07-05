@@ -38,7 +38,7 @@ worker.addEventListener("message", function (event) {})
 
 |Name|Type|Default|Description|
 |:--:|:--:|:-----:|:----------|
-|**`name`**|`{String}`|`[name]`|Set a custom name for the output script|
+|**`name`**|`{String}`|`[hash].worker.js`|Set a custom name for the output script|
 |**`inline`**|`{Boolean}`|`false`|Inline the worker as a BLOB|
 |**`fallback`**|`{Boolean}`|`false`|Require a fallback for non-worker supporting environments|
 
